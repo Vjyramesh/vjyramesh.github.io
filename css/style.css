@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    background: #f5f5f5;
+}
+
+.navbar {
+    background: #2196F3;
+    border: 1px solid #2196f3;
+    padding: 1px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar li {
+    display: table-cell;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: #fff;
+}
+
+.navbar li.active a {
+    background: #fff;
+    margin: 1px;
+    color: #2196f3;
+}
+
+.box-shadow {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.container {
+    display: flex;
+}
+
+.flex {
+    flex: auto;
+    padding: 0px 5px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+}
+
+.porfolio-image,
+.porfolio-image img {
+    width: 150px;
+    height: 150px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.sub-heading {
+    font-size: 14px;
+}
+
+.description-content {
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.margin-v-15 {
+    margin: 15px 0;
+}
+
+.button-hire,
+.button-download {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+}
+
+.button-indigo {
+    background: #673AB7;
+    color: #fff;
+}
+
+.button-blue {
+    background: #2196f3;
+    color: #fff;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 16px;
+}
+.border-none{
+    border: 0;
+}
+.border-red{
+    border-color: #F44336 !important;
+}
+.about-highlight, .my-education{
+    border-width: 4px !important;
+}
+.border-pale-green{
+    border-color: #009688 !important;
+}
+.border-purple{
+    border-color: #3F51B5 !important;
+}
+.border-blue{
+    border-color: #2196F3 !important;
+}
+.about-highlight img {
+    width: 50px;
+    margin: 15px;
+}
+.personal-details p{
+    display: table;
+    width: 100%;
+}
+.personal-details span{
+    display: table-cell;
+}
+.personal-details p span:nth-of-type(1) {
+    width: 120px;
+}
+
+.progress{
+    height: 3px;
+}
+.background-blue {
+    background-color: #03A9F4;
+}
+.background-red {
+    background-color: #F44336;
+}
+.background-purple {
+    background-color: #AB47BC;
+}
+.background-light-green{
+    background-color: #8BC34A;
+}
+.background-light-red {
+    background-color: #FFAB91;
+}
+.background-dark-blue {
+    background-color: #5C6BC0;
+}
+.background-cement {
+    background-color: #78909C;
+}
+.background-dark-green{
+    background-color: #009688;
+}
+.color-purple {
+    color: #AB47BC
+}
+.color-gray{
+    color: #959595;
+}
+.company:after, .company:before{
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+    border: 2px solid #AB47BC;
+    top: 0
+}
+
+.company:before{
+    background: #AB47BC;
+    width: 14px;
+    height: 14px;
+    top: 5px;
+    left: 5px;
+}
+
+.work-category ul{
+    list-style: none;
+    width: 100%;
+    background: #f5f5f5;
+}
+.work-category li{
+    cursor: pointer;
+}
+.work-category li:hover, .work-category li.in-active{
+    background: #dfdfdf;
+}
+.contact-card{
+    transition:0.5s ease all;
+}
+.contact-card:hover, .form-control:focus{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.29);
+    transition:0.5s ease all;   
+}
+
+.contact-form textarea {
+    resize:none;
+    min-height: 250px;
+}
+.color-white{
+    color: #fff;
+}
