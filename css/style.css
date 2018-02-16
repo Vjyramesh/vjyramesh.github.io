@@ -7,8 +7,12 @@ body {
     padding: 10px;
     font-family: 'PT Sans', sans-serif;
     background: #f5f5f5;
+    line-height: 30px;
+    font-size: 16px;
 }
-
+a.btn:hover{
+    color: #fff;
+}
 .navbar {
     background: #2196F3;
     border: 1px solid #2196f3;
@@ -44,27 +48,19 @@ body {
 .box-shadow {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
-
-.container {
-    display: flex;
-}
-
-.flex {
-    flex: auto;
-    padding: 0px 5px;
-}
-
 .card {
     background: #fff;
     padding: 15px;
 }
 
-.porfolio-image,
-.porfolio-image img {
+.portfolio-image,
+.portfolio-image img {
     width: 150px;
     height: 150px;
 }
-
+.portfolio-image + h1{
+    font-size: 1.9rem;
+}
 .no-margin {
     margin: 0px;
 }
@@ -74,8 +70,8 @@ body {
 }
 
 .description-content {
-    line-height: 24px;
-    font-size: 15px;
+    line-height: 30px;
+    font-size: 16px;
 }
 
 .no-margin-top {
