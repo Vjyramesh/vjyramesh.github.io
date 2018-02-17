@@ -332,7 +332,7 @@ a.btn:hover {
     font-size: 40px;
     border-radius: 50%;
     text-align: center;
-    padding-top: calc(50% - 115px);
+    padding-top: 33px;
 }
 
 .work-list p {
@@ -344,4 +344,9 @@ a.btn:hover {
 .work-list a:hover,
 .work-list a:focus {
     text-decoration: none;
+}
+.portfolio-image ~ a {
+    color: #4a4a4a;
+    display: inline-block;
+    padding: 0px 10px;
 }
