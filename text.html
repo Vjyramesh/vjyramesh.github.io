@@ -7,7 +7,7 @@
     <body>
         <input value="" class="text" type="text" />
         <script>
-                       document.querySelector('.text').addEventListener('keypress', function() {
+                       document.querySelector('.text').addEventListener('touchstart', function() {
                if(this.value.length < 5) {
                 this.setAttribute('type', 'text')
                } else if(this.value.length >5 && this.value.length < 7) {
