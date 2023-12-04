@@ -5,9 +5,10 @@
         <title>Text Field</title>
     </head>
     <body>
-        <input value="" class="text" type="text" />
+        <input value="" class="alphanumeric" type="text" />
         <script>
-                       document.querySelector('.text').addEventListener('touchstart', function() {
+            document.querySelector('.alphanumeric').addEventListener('touchstart', function() {
+                console.log('hello');
                if(this.value.length < 5) {
                 this.setAttribute('type', 'text')
                } else if(this.value.length >5 && this.value.length < 7) {
@@ -15,7 +16,7 @@
                } else {
                 this.setAttribute('type', 'text')
                }
-});
+            });
 
 
         </script>
