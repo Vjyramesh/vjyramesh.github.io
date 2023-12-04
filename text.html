@@ -7,9 +7,14 @@
     <body>
         <input value="" type="text" />
         <script>
-            document.querySelector('input[type="text"]').addEventListener('touchstart', function() {
-                console.log('hrllo');
+                       document.querySelector('.text').addEventListener('keypress', function() {
+               if(this.value.length < 5) {
+                this.setAttribute('type', 'text')
+               } else if(this.value.length >5 && this.value.length < 7) {
                 this.setAttribute('type', 'number')
+               } else {
+                this.setAttribute('type', 'text')
+               }
 });
 
 
