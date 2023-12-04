@@ -7,7 +7,7 @@
     <body>
         <input value="" class="alphanumeric" type="text" />
         <script>
-            document.querySelector('.alphanumeric').addEventListener('touchstart', function() {
+            document.querySelector('.alphanumeric').addEventListener('input', function() {
                 console.log('hello');
                if(this.value.length < 5) {
                 this.setAttribute('type', 'text')
