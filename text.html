@@ -5,16 +5,16 @@
         <title>Text Field</title>
     </head>
     <body>
-        <input value="" class="alphanumeric" type="text" />
+        <input value="" class="alphanumeric" type="number" />
         <script>
             document.querySelector('.alphanumeric').addEventListener('input', function() {
                 console.log('hello');
                if(this.value.length < 5) {
-                this.setAttribute('type', 'text')
-               } else if(this.value.length >5 && this.value.length < 7) {
                 this.setAttribute('type', 'number')
-               } else {
+               } else if(this.value.length >5 && this.value.length < 9) {
                 this.setAttribute('type', 'text')
+               } else {
+                this.setAttribute('type', 'number')
                }
             });
 
